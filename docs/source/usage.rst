@@ -73,7 +73,7 @@ internet acess is needed.
 .. _defined time:
 
 Start from defined time
-------------
+------------------------
 
 To start the timer from a previously defined time, we can directly to input the time to the ``Start time in plan`` cell.
 If the inputted time is behind the current time, after we click the ``Start`` button, we will see a clock running until the inputted time.
@@ -82,7 +82,7 @@ Otherwise, the timer will start immediately.
 .. _change voice:
 
 Changing the voice of anouncement
-------------
+------------------------------------
 
 Please directly modify the setting file named ``define_sound_files.txt`` in ``../dist/OSCE_timer/``.
 
@@ -91,7 +91,7 @@ Replace the audio file names if needed and meanwhile put those newly added files
 .. _build:
 
 Build from source
-----------------
+------------------
 
 The exe file of this app was built using ``pyinstaller``. Although other exe building software may also work, we did not check.
 

@@ -4,7 +4,7 @@
 
 project = 'Shark Timmer'
 copyright = '2022, YST'
-author = 'Graziella'
+author = 'YST'
 
 release = '0.1'
 version = '0.1.0'
