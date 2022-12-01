@@ -2,9 +2,7 @@ Welcome to Shark Timer's documentation!
 ===================================
 
 **Shark Timer** is a Python based timer app
-that can calculate time for test and play anounce.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+that can calculate time for test and play anouncements.
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
@@ -19,4 +17,4 @@ Contents
 .. toctree::
 
    usage
-   api
+   #api

@@ -53,7 +53,10 @@ Click ``Start``.
 
 Once the timer finishes its run, the elapsed time and standarized elapsed time will be shown in the main window.
 
-Notes: here we get the standarized time from [WebApi](http://worldtimeapi.org/). Therefor, for both ``Calibration`` and ``Assessment``,
+
+.. note::
+
+   Here we get the standarized time from [WorldtimebApi](http://worldtimeapi.org/). Therefor, for both ``Calibration`` and ``Assessment``,
 internet acess is needed.
 
 .. code-block:: python3
@@ -62,10 +65,10 @@ internet acess is needed.
    from bs4 import BeautifulSoup
    import datetime
    def get_wt_time(URL = "http://worldtimeapi.org/api/timezone/Asia/Tokyo"):
-		r = requests.get(URL)
-		soup = BeautifulSoup(r.text, "html.parser")
-		time_at_now = re.findall(r'.*\"datetime\":"(.*)",\"day_of_week\"', soup.contents[0])[0]
-		return(datetime.datetime.strptime(time_at_now, '%Y-%m-%dT%H:%M:%S.%f%z'))
+     r = requests.get(URL)
+	 soup = BeautifulSoup(r.text, "html.parser")
+	 time_at_now = re.findall(r'.*\"datetime\":"(.*)",\"day_of_week\"', soup.contents[0])[0]
+	 return(datetime.datetime.strptime(time_at_now, '%Y-%m-%dT%H:%M:%S.%f%z'))
 
 .. _defined time:
 
@@ -92,7 +95,7 @@ Build from source
 
 The exe file of this app was built using ``pyinstaller``. Although other exe building software may also work, we did not check.
 
-Flowing the [instruction of streamlit on building exe file] (https://discuss.streamlit.io/t/streamlit-deployment-as-an-executable-file-exe-for-windows-macos-and-android/6812/42?page=2),
+Flowing the [instruction of streamlit on building exe file](https://discuss.streamlit.io/t/streamlit-deployment-as-an-executable-file-exe-for-windows-macos-and-android/6812/42?page=2),
 we used the following commands and import all packages used in this tool.
 
 .. code-block:: python3
@@ -108,8 +111,8 @@ we used the following commands and import all packages used in this tool.
 	import sys
 
 	if __name__ == "__main__":
-		sys.argv=["streamlit", "run", "OSCE_timer_ver8.0.py", "--global.developmentMode=false"]
-		sys.exit(stcli.main())
+	  sys.argv=["streamlit", "run", "OSCE_timer_ver8.0.py", "--global.developmentMode=false"]
+	  sys.exit(stcli.main())
 		
 .. code-block:: console
 
