@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Shark Timmer'
+project = 'Shark'
 copyright = '2022, YST'
 author = 'YST'
 
