@@ -2,8 +2,8 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
+project = 'Shark Timmer'
+copyright = '2022, YST'
 author = 'Graziella'
 
 release = '0.1'
