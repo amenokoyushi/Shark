@@ -1,5 +1,5 @@
 Welcome to Shark Timer's documentation!
-===================================
+==============================================================
 
 **Shark Timer** is a Python based timer app
 that can calculate time for test and play anouncements.
