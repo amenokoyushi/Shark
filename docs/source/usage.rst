@@ -56,8 +56,8 @@ Once the timer finishes its run, the elapsed time and standarized elapsed time w
 
 .. note::
 
-   Here we get the standarized time from [WorldtimebApi](http://worldtimeapi.org/). Therefor, for both ``Calibration`` and ``Assessment``,
-internet acess is needed.
+   Here we get the standarized time from [WorldtimebApi](http://worldtimeapi.org/). Therefor, for both ``Calibration`` and ``Assessment``, internet acess is needed.
+   
 
 .. code-block:: python3
 
